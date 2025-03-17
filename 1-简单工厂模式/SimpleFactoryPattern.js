@@ -19,7 +19,7 @@ const { AddOperation, SubtractOperation, MultiplyOperation, DivideOperation } = 
  * @param {number} num1 第一个数字
  * @param {number} num2 第二个数字
 */
-function createOperation(operator, num1, num2) {
+function operationFactory(operator, num1, num2) {
     switch (operator) {
         case "+":
             return new AddOperation(num1, num2);
@@ -41,7 +41,7 @@ function createOperation(operator, num1, num2) {
 
 /** 使用工厂模式创建计算器 */
 function calculator(operator, num1, num2) {
-    const operation = createOperation(operator, num1, num2);
+    const operation = operationFactory(operator, num1, num2);
     return operation.getResult();
 }
 
