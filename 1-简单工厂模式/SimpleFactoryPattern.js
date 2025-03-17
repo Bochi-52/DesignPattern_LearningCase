@@ -30,7 +30,7 @@ function operationFactory(operator, num1, num2) {
         case "/":
             return new DivideOperation(num1, num2);
 
-        /** 此处 需要其他 运算符 比附 平方、取余等，都可以去 Operation.js 文件中添加相应的类
+        /** 此处 需要其他 运算符 比如 平方、取余等，都可以去 Operation.js 文件中添加相应的类
          * 添加类后，在这里添加 case 语句即可
          */
 
