@@ -39,13 +39,12 @@ function operationFactory(operator, num1, num2) {
     }
 }
 
-/** 使用工厂模式创建计算器 */
+// 使用示例 使用工厂模式创建计算器
 function calculator(operator, num1, num2) {
     const operation = operationFactory(operator, num1, num2);
     return operation.getResult();
 }
 
-// 测试
 console.log(calculator("+", 10, 5)); // 输出: 15
 console.log(calculator("-", 10, 5)); // 输出: 5
 console.log(calculator("*", 10, 5)); // 输出: 50

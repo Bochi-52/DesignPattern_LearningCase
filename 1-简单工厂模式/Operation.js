@@ -1,3 +1,7 @@
+/**
+ * 操作类接口，和具体实现
+ */
+
 /** 定义计算操作的基类 */
 class Operation {
     constructor(num1, num2) {
