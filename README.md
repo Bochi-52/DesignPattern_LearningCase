@@ -6,19 +6,26 @@
 
 ## 项目结构
 
+```bash
+RootDir
+├─C++        # C++案例
+├─JavaScript # JS案例
+└─README.md
+```
+
+### C++文件夹下
+
+waiting to wirte...
+
 ### JavaScript文件夹下
 
 编码环境： [Node.js](https://nodejs.org/zh-cn)
 
 在node.js环境下，对应脚本文件夹打开终端使用 node 命令可以运行脚本
 
-```
+```bash
 node xxx.js
 ```
-
-### C++文件夹下
-
-waiting to wirte...
 
 ## 设计模式原则
 
